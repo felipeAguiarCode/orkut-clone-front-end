@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Orkut - Clone</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <div id="cabecalho" class="tela">
+      <span>Informativo:</span> Construido por Felipe Aguiar com o objetivo de treinar flexbox.
+    </div>
+  </header>
+
+    <div id="container-principal" class="tela">
+        
+        <div id="caixa-esquerda">
+          <div id="bloco-logo">
+             <img src="img/orkut-logo.png" height="80px" alt="logo orkut">
+          </div>
+
+          <div id="bloco-textos">
+            <p><span>Conecta-se</span> aos seus amigos e familiares usando recados e mensagens instantâneas</p>
+            <p><span>Conheça novas</span> pessoas através de amigos de seus amigos e comunidades</p>
+            <p><span>Compartilhe</span> seus vídeos, fotos e paixôes em um só lugar</p>
+          </div>
+        </div>
+
+        <div id="caixa-direita">
+              
+              <div id="tela-login">
+                <p>Acesse o <span style="font-weight:bold;">orkut.clone</span> com a sua conta</p>
+                 
+                  <form action="">
+                    <div id="input-email">
+                      <label for="email">E-mail</label>
+                      <input type="email" id="email" placeholder="digite seu e-mail..." required="required">
+                    </div>
+
+                    <div id="input-senha">
+                      <label for="senha">Senha</label>
+                      <input type="password" id="senha" placeholder="digite sua senha..." required="required">
+                    </div>
+
+                    <div id="input-lembrar">
+                      <input type="checkbox" id="chk-lembrar-senha" name="lembrar" value="1">
+                      <label for="chk-lembrar-senha">Lembrar minha senha</label>
+                    </div>
+
+                    <div id="logar">
+                        <button type="submit">Logar</button>
+                    </div>
+                    
+                  </form>
+              </div>
+
+              <div id="tela-inscrever-se">
+                  <span>Ainda não é membro ?</span>
+                  <a href="#">Entre já</a>
+              </div>
+        </div>
+
+
+    </div>
+
+    <footer id="rodape" class="tela">
+       Orkut.clone - 2020 | Desenvolvido por Felipe Aguiar
+    </footer>
+    
+</body>
+</html>
